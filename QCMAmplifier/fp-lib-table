@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LT1210")(type "KiCad")(uri "${KIPRJMOD}/LT1210")(options "")(descr ""))
+  (lib (name "PA119")(type "KiCad")(uri "${KIPRJMOD}/PA119")(options "")(descr ""))
+)
