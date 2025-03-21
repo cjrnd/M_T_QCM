@@ -2138,16 +2138,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b2df4ad-fa23-40db-8ede-3ca3fdf6064d")
-	)
-	(wire
-		(pts
 			(xy 199.39 33.02) (xy 201.93 33.02)
 		)
 		(stroke
@@ -2228,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 119.38) (xy 190.5 119.38)
+			(xy 200.66 119.38) (xy 193.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3048,16 +3038,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 119.38) (xy 190.5 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c210f020-6c8e-4c15-ae7d-7c7ab65c43b1")
-	)
-	(wire
-		(pts
 			(xy 109.22 170.18) (xy 109.22 168.91)
 		)
 		(stroke
@@ -3389,6 +3369,17 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
+		(at 193.04 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2952c6c2-80c8-4ba0-ab1a-0d56e417d1f7")
+	)
+	(hierarchical_label "IN"
+		(shape input)
 		(at 22.86 115.57 180)
 		(effects
 			(font
@@ -3507,17 +3498,6 @@
 			(justify right)
 		)
 		(uuid "af64144c-83b7-4df8-9a2d-8656cf40253a")
-	)
-	(hierarchical_label "IN"
-		(shape input)
-		(at 198.12 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0d8272c-441f-42c5-8505-f0aa18028d8e")
 	)
 	(hierarchical_label "OUT_PA"
 		(shape output)
@@ -4380,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 205.74 119.38 0)
 			(effects
 				(font
@@ -5299,6 +5279,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 26.67 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "556602ea-3e0e-4c32-aff6-38caabf294e2")
+		(property "Reference" "H5"
+			(at 29.21 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "QCMAmp"
+				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 26.67 181.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5558,6 +5602,69 @@
 			(project "QCMAmp"
 				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6143cde2-7527-4d61-9466-2f766501c163")
+		(property "Reference" "H6"
+			(at 53.34 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 50.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "QCMAmp"
+				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6240,6 +6347,70 @@
 			(project "QCMAmp"
 				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72235a7f-a632-455c-8575-b3a350a8829f")
+		(property "Reference" "H7"
+			(at 76.2 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 76.2 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 73.66 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "QCMAmp"
+				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -6939,7 +7110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 121.92 0)
+		(at 200.66 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6948,7 +7119,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b0dddb-34c7-499b-85c7-aa4e764726de")
 		(property "Reference" "#PWR06"
-			(at 190.5 128.27 0)
+			(at 200.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +7128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 126.365 0)
+			(at 200.66 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 121.92 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +7145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 121.92 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +7154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 121.92 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,6 +7909,70 @@
 			(project "QCMAmp"
 				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 93.98 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4f629a-9820-4bd9-8c72-ab55c6839b72")
+		(property "Reference" "H8"
+			(at 96.52 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 96.52 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 93.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 93.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "QCMAmp"
+				(path "/d123aecc-ef78-4487-96f0-a5969734e201"
+					(reference "H8")
 					(unit 1)
 				)
 			)
